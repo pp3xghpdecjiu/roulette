@@ -1,0 +1,109 @@
+
+* {
+    font-family: "Noto Sans JP";
+}
+
+body {
+}
+
+div#container {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+div#result {
+    color: #1d1f21;
+    height: 35vh;
+    font-size: 25vh;
+    text-align: center;
+    width: 40vw;
+    margin-top: 0;
+
+}
+
+div#start {
+    height: 17vh;
+    background-color: #df6e21;
+    line-height: 17vh;
+}
+
+div#undo {
+    background-color: #2096ba;
+    height: 11vh;
+    line-height: 11vh;
+}
+
+div#back {
+    background-color: #f7cb4f;
+    height: 11vh;
+    line-height: 11vh;
+}
+
+div#pickup {
+    height: 11vh;
+    line-height: 11vh;
+    background-color: #55c500;
+}
+
+.neon_button {
+    border-radius: 25px;
+    margin-top: 3vh;
+    font-size: 10vh;
+    width: 60vw;
+    display: table-cell;
+    vertical-align: middle;
+    color: white; /*temporary*/
+    text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#container2 {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    background-color: #282c34;
+    justify-content: space-between;
+    font-size: 6.6vw;
+}
+
+div#show_results {
+    margin-top: 1vh;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 6vw;
+    background-color: white;
+    width: 6vw;
+    border: solid 2px #ddd;
+    height: 6vw;
+    font-size: 2.5vw;
+    position: fixed;
+    top: calc(100% - 7vw);
+    right: 5px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div#numbers {
+    width: 6vw;
+    font-size: 4vw;
+    flex-basis: 8vw;
+}
+
+
+table {
+    width: 80vw;
+}
+
+table td {
+    font-size: 5vw;
+    color: black;
+
+}
